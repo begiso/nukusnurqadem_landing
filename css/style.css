@@ -319,6 +319,13 @@ legend {
   }
 }
 
+@media (max-width: 992) {
+  .hero-car {
+    display: none;
+    max-height: 60vh;
+  }
+}
+
 progress {
   vertical-align: baseline;
 }
@@ -5853,6 +5860,7 @@ a.close.disabled {
 }
 
 .carousel-item {
+  height: 60vh;
   position: relative;
   display: none;
   float: left;
